@@ -1,0 +1,55 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 8px 16px;
+    margin-bottom: 6px;
+}
+.icon {
+    color: #1266F1;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    align-items: center
+}
+.del-icon {
+    margin-left: 16px;
+    font-size: 22px;
+}
+.edit-icon {
+    font-size: 16px;
+}
+.completed {
+    text-decoration: line-through;
+}
+.checkbox {
+    margin-right: 10px;
+}
+.save-btn,
+.cancel-btn {
+    border: none;
+    background-color: #1266F1;
+    color: white;
+    padding: 5px;
+    border-radius: 5px
+}
+.save-btn {
+    margin-right: 16px;
+}
+.todo-text-box {
+    display: flex;
+    align-items: center
+}
+.edit-input {
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+.todo-text {
+    opacity: 0.9;
+}
+
